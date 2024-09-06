@@ -1,0 +1,11 @@
+/*
+  Custom global styles
+*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
