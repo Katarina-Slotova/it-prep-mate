@@ -27,7 +27,7 @@ function Navbar() {
       </div>
 
       {isSidebarVisible ? (
-        <Sidebar setIsSidebarVisible={setIsSidebarVisible} />
+        <Sidebar setIsSidebarVisible={setIsSidebarVisible} navbarItems={navbarItems} />
       ) : (
         <></>
       )}

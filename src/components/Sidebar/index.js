@@ -2,12 +2,9 @@ import React from 'react'
 import styles from './Sidebar.module.css'
 import { MdClose } from 'react-icons/md'
 
-function Sidebar({setIsSidebarVisible}) {
+function Sidebar({ setIsSidebarVisible, navbarItems }) {
   return (
-    <ul
-      className={styles.sidebar}
-      //style={{ visibility: isSidebarVisible ? 'visible' : 'hidden' }}
-    >
+    <ul className={styles.sidebar}>
       <li>
         <button
           onClick={() => {
@@ -19,51 +16,13 @@ function Sidebar({setIsSidebarVisible}) {
           {''}
         </button>
       </li>
-      <li className={styles.sidebarNavItem}>
-        <a
-          href='/'
-          className={styles.sidebarLinkText}
-          onClick={() => setIsSidebarVisible(false)}
-        >
-          Interview Guide
-        </a>
-      </li>
-      <li className={styles.sidebarNavItem}>
-        <a
-          href='/'
-          className={styles.sidebarLinkText}
-          onClick={() => setIsSidebarVisible(false)}
-        >
-          Job Search Guide
-        </a>
-      </li>
-      <li className={styles.sidebarNavItem}>
-        <a
-          href='/'
-          className={styles.sidebarLinkText}
-          onClick={() => setIsSidebarVisible(false)}
-        >
-          Networking
-        </a>
-      </li>
-      <li className={styles.sidebarNavItem}>
-        <a
-          href='/'
-          className={styles.sidebarLinkText}
-          onClick={() => setIsSidebarVisible(false)}
-        >
-          Agencies
-        </a>
-      </li>
-      <li className={styles.sidebarNavItem}>
-        <a
-          href='/'
-          className={styles.sidebarLinkText}
-          onClick={() => setIsSidebarVisible(false)}
-        >
-          Contact Us
-        </a>
-      </li>
+      {navbarItems.map((navbarItem) => (
+        <li className={styles.sidebarNavItem}>
+          <a href='/' className={styles.sidebarLinkText}>
+            {navbarItem}
+          </a>
+        </li>
+      ))}
     </ul>
   )
 }
