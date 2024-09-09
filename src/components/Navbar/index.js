@@ -34,10 +34,10 @@ function Navbar() {
 
       <div className={styles.navbarWrapper}>
         <ul className={styles.navLinks}>
-          {navbarItems.map((navbarItem) => ( 
+          {navbarItems.map((navbarItem) => (
             <li className={styles.navLinkItem}>
               <a href='/' className={styles.navLinkText}>
-							{navbarItem}
+                {navbarItem}
               </a>
             </li>
           ))}
