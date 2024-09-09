@@ -1,0 +1,14 @@
+.layout {
+  display: flex;
+  padding: 30px 0;
+}
+
+.leftColumn {
+  flex: 1;
+  text-align: center;
+}
+
+.rightColumn {
+  flex: 1;
+  text-align: center;
+}
