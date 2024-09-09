@@ -6,6 +6,13 @@ import { FaBars } from 'react-icons/fa'
 
 function Navbar() {
   const [isSidebarVisible, setIsSidebarVisible] = React.useState(false)
+  const navbarItems = [
+    'Interview Guide',
+    'Job Search Guide',
+    'Networking',
+    'Agencies',
+    'Contact Us',
+  ]
 
   function showSidebar() {
     setIsSidebarVisible(!isSidebarVisible)
@@ -19,35 +26,21 @@ function Navbar() {
         </a>
       </div>
 
-      {isSidebarVisible ? <Sidebar setIsSidebarVisible={setIsSidebarVisible} /> : <></>}
+      {isSidebarVisible ? (
+        <Sidebar setIsSidebarVisible={setIsSidebarVisible} />
+      ) : (
+        <></>
+      )}
 
       <div className={styles.navbarWrapper}>
         <ul className={styles.navLinks}>
-          <li className={styles.navLinkItem}>
-            <a href='/' className={styles.navLinkText}>
-              Interview Guide
-            </a>
-          </li>
-          <li className={styles.navLinkItem}>
-            <a href='/' className={styles.navLinkText}>
-              Job Search Guide
-            </a>
-          </li>
-          <li className={styles.navLinkItem}>
-            <a href='/' className={styles.navLinkText}>
-              Networking
-            </a>
-          </li>
-          <li className={styles.navLinkItem}>
-            <a href='/' className={styles.navLinkText}>
-              Agencies
-            </a>
-          </li>
-          <li className={styles.navLinkItem}>
-            <a href='/' className={styles.navLinkText}>
-              Contact Us
-            </a>
-          </li>
+          {navbarItems.map((navbarItem) => ( 
+            <li className={styles.navLinkItem}>
+              <a href='/' className={styles.navLinkText}>
+							{navbarItem}
+              </a>
+            </li>
+          ))}
           <li>
             <button onClick={showSidebar} className={styles.menu}>
               <FaBars size={24} />
