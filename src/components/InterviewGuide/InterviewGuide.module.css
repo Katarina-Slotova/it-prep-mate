@@ -1,0 +1,16 @@
+.infoSection{
+    padding: 10%;
+}
+.interviewImage{
+    height: 300px;
+    width: 500px;
+}
+.infoSection{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.secondText{
+    padding-left: 10%;
+    text-align: justify;
+}

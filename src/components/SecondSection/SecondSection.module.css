@@ -1,0 +1,13 @@
+.infoSection{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.jobImage{
+    height: 300px;
+    width: 500px;
+}
+.secondText{
+    padding-left: 10%;
+    text-align: justify;
+}
