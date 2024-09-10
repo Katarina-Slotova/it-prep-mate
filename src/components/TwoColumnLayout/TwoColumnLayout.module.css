@@ -5,7 +5,9 @@
 
 .leftColumn {
   flex: 1;
-  text-align: center;
+  text-align: left;
+  margin-left: 10%;
+  padding-top: 10%;
 }
 
 .rightColumn {
