@@ -1,15 +1,11 @@
 import React from 'react'
-import IntroText from '../IntroText'
 import styles from './TwoColumnLayout.module.css'
-import heroImg from '../../images/hero-img.jpg'
 
-function TwoColumnLayout({ rightColumn }) {
+function TwoColumnLayout({ leftColumn, rightColumn }) {
   return (
     <div className={styles.layout}>
-      <div className={styles.leftColumn}>{<IntroText />}</div>
-      <div className={styles.rightColumn}>
-        <img src={heroImg} className={styles.heroImage} />
-      </div>
+      <div className={styles.leftColumn}>{leftColumn}</div>
+      <div className={styles.rightColumn}>{rightColumn}</div>
     </div>
   )
 }
