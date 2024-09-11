@@ -12,5 +12,13 @@
 
 .rightColumn {
   flex: 1;
-  text-align: center;
+	margin-right: 10%;
+  text-align: right;
+}
+
+.heroImage {
+  width: 28rem;
+  height: 40rem;
+  border-radius: 12px;
+  box-shadow: 7px 7px 5px rgb(246, 185, 185);
 }
