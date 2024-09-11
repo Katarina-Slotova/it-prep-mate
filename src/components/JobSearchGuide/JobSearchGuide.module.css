@@ -1,5 +1,6 @@
 .infoSection{
     padding: 10%;
+    background-color: #acc1c3;
 }
 .interviewImage{
     height: 400px;
@@ -8,10 +9,10 @@
 .infoSection{
     padding: 10%;
     display: flex;
-    font-size: 20px;
     justify-content: space-between;
 }
 .secondText{
+    font-size: 20px;
     padding-left: 10%;
     text-align: justify;
 }
