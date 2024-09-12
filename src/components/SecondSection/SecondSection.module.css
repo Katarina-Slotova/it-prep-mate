@@ -1,15 +1,22 @@
-.infoSection{
-    background-color: #acc1c3;
-    padding: 10%;
-    display: flex;
-    justify-content: space-between;
+.infoSection {
+  background-color: #acc1c3;
 }
-.jobImage{
-    height: 400px;
-    width: 500px;
+
+.jobImage {
+  height: 400px;
+  width: 600px;
+  border-radius: 12px;
+  box-shadow: 7px 7px 5px #c4e4e9;
 }
-.secondText{
-    padding-left: 10%;
-    text-align: justify;
-    font-size: 20px;
+
+.secondText {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.title {
+  font-family: 'Playfair Display';
+  text-align: left;
+  font-weight: 800;
 }

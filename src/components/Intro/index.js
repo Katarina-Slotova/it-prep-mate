@@ -5,12 +5,11 @@ import styles from './Intro.module.css'
 import heroImg from '../../images/hero-img.jpg'
 
 function Intro() {
+  const rightColumn = <img src={heroImg} className={styles.heroImage} />
+
   return (
     <div>
-      <TwoColumnLayout
-        leftColumn={<IntroText />}
-        rightColumn={<img src={heroImg} className={styles.heroImage} />}
-      />
+      <TwoColumnLayout leftColumn={<IntroText />} rightColumn={rightColumn} />
     </div>
   )
 }

@@ -1,27 +1,37 @@
-import React from "react";
-import styles from "./JobSearchGuide.module.css";
-import interviewImg from "../../images/JobSearchGuide.png";
+import React from 'react'
+import styles from './JobSearchGuide.module.css'
+import jobSearchGuideImg from '../../images/JobSearchGuide.png'
+import TwoColumnLayout from '../TwoColumnLayout'
 
 function JobSearchGuide() {
-  return (
-    <div className={styles.infoSection}>
-      <div>
-        <img src={interviewImg} className={styles.interviewImage} />
-      </div>
+  const leftColumn = (
+    <img src={jobSearchGuideImg} className={styles.interviewImage} />
+  )
+
+  const rightColumn = (
+    <div>
+      <h1 className={styles.title}>Navigate Your Job Search</h1>
       <div className={styles.secondText}>
         <p>
-          Finding a job in Canada requires a well-planned approach. Our job
-          search guide walks you through the essential steps, from crafting a
-          tailored resume to navigating the top job portals.
+          Finding a job in Canada requires a{' '}
+          <strong>well-planned approach</strong>. Our job search guide walks you
+          through the essential steps, from crafting a tailored resume to
+          navigating the top job portals.
         </p>
         <p>
           With tips on applying to different industries and strategies for
-          increasing your chances of success, this guide is your roadmap to
-          landing your next role.
+          increasing your chances of success, this guide is your{' '}
+          <strong>roadmap to landing your next role</strong>.
         </p>
       </div>
     </div>
-  );
+  )
+
+  return (
+    <div className={styles.infoSection}>
+      <TwoColumnLayout leftColumn={leftColumn} rightColumn={rightColumn} />
+    </div>
+  )
 }
 
-export default JobSearchGuide;
+export default JobSearchGuide

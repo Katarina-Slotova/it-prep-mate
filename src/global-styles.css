@@ -1,12 +1,23 @@
 /*
   Custom global styles
 */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reenie+Beanie&display=swap');
+
 html,
 body {
   height: 100%;
+  margin: 0;
 }
 
 body {
   font-family: sans-serif;
-  background-color: #E7F2F3;
+  background-color: #e7f2f3;
+}
+
+p {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
 }

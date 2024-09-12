@@ -1,3 +1,20 @@
-.introText{
-    font-size: 20px;
+.introText {
+  font-size: 20px;
+  text-align: justify;
+  padding: 50px 0;
+}
+
+.title {
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+}
+
+.signature {
+	padding-top: 20px;
+  font-family: 'Reenie Beanie';
+  text-align: center;
+  font-size: 40px;
 }

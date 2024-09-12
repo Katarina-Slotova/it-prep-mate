@@ -1,17 +1,18 @@
-.infoSection{
-    padding: 10%;
+.networkingImg {
+  height: 500px;
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 7px 7px 5px rgb(246, 185, 185);
 }
-.interviewImage{
-    height: 400px;
-    width: 500px;
+
+.secondText {
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px 0;
 }
-.infoSection{
-    padding: 10%;
-    display: flex;
-    font-size: 20px;
-    justify-content: space-between;
-}
-.secondText{
-    padding-left: 10%;
-    text-align: justify;
+
+.title {
+  font-family: 'Playfair Display';
+  text-align: left;
+  font-weight: 800;
 }

@@ -1,18 +1,21 @@
-.infoSection{
-    padding: 10%;
-    background-color: #acc1c3;
+.infoSection {
+  background-color: #acc1c3;
 }
-.interviewImage{
-    height: 400px;
-    width: 500px;
+
+.agenciesImage {
+  height: 400px;
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 7px 7px 5px #c4e4e9;
 }
-.infoSection{
-    padding: 10%;
-    display: flex;
-    justify-content: space-between;
+
+.secondText {
+  font-size: 20px;
+  text-align: justify;
 }
-.secondText{
-    padding-left: 10%;
-    font-size: 20px;
-    text-align: justify;
+
+.title {
+  font-family: 'Playfair Display';
+  text-align: left;
+  font-weight: 800;
 }
