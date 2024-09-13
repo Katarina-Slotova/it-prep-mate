@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import logo from '../../images/ItPrepMate.png'
+import logo from '../../images/NewLogo.png'
 import Sidebar from '../Sidebar'
 import { FaBars } from 'react-icons/fa'
 
