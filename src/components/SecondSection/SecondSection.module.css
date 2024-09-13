@@ -4,7 +4,7 @@
 
 .jobImage {
   height: 400px;
-  width: 600px;
+  width: 500px;
   border-radius: 12px;
   box-shadow: 7px 7px 5px #c4e4e9;
 }
@@ -12,7 +12,7 @@
 .secondText {
   text-align: justify;
   font-size: 20px;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 
 .title {
