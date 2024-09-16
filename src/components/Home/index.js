@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../Navbar";
 import Intro from "../Intro";
 import SecondSection from "../SecondSection";
-import InterviewGuide from "../InterviewGuide";
+import InterviewGuideSection from "../InterviewGuideSection";
 import JobSearchGuideSection from "../JobSearchGuideSection";
-import Networking from "../Networking";
-import Agencies from "../Agencies";
+import NetworkingSection from "../NetworkingSection";
+import AgenciesSection from "../AgenciesSection";
 
 function Home() {
   return (
@@ -13,10 +13,10 @@ function Home() {
       <Navbar />
       <Intro />
       <SecondSection />
-      <InterviewGuide />
+      <InterviewGuideSection />
       <JobSearchGuideSection />
-      <Networking />
-      <Agencies />
+      <NetworkingSection />
+      <AgenciesSection />
     </div>
   );
 }

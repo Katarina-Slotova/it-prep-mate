@@ -1,7 +1,7 @@
 import React from "react";
 
-function Agencies() {
+function Contact() {
   return <div>index</div>;
 }
 
-export default Agencies;
+export default Contact;
