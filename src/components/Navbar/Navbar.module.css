@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-	padding: 1.5rem 1rem;
+  padding: 1.5rem 1rem;
   z-index: 21;
   backdrop-filter: blur(15px);
 }
@@ -24,6 +24,13 @@
 
 .navLinkItem {
   padding-right: 2.5rem;
+}
+
+.navLinkText {
+  color: hsl(240, 100%, 2%);
+  text-decoration: none;
+  font-weight: 400;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .navLinkItem:hover {
