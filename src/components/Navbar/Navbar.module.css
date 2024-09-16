@@ -26,16 +26,10 @@
   padding-right: 2.5rem;
 }
 
-.navLinkText {
-  color: hsl(240, 100%, 2%);
-  text-decoration: none;
-  font-weight: 400;
-  font-family: 'League Spartan', sans-serif;
-}
-
-.navLinkText:hover {
+.navLinkItem:hover {
   color: #db634d;
   transition: all 0.4s;
+  cursor: pointer;
 }
 
 .menu {
