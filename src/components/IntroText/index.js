@@ -35,7 +35,7 @@ function IntroText() {
           you’ve always envisioned.
         </p>
         <p className={styles.signature}>
-          ~ Aayushi, Amruta, Katarina, Kriti & Swapna ~
+          ~ Aayushi, Katarina, Kriti & Swapna ~
         </p>
       </div>
     </div>

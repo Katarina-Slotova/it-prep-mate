@@ -8,7 +8,7 @@ function SecondSection() {
 
   const rightColumn = (
     <div>
-      <h1 className={styles.title}>The gateway to your next job starts here.</h1>
+      <h1 className={styles.title}>The Gateway To Your Next Job Starts Here</h1>
       <div className={styles.secondText}>
         <p>
           Whether you're navigating the complexities of the Canadian job market
