@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react'
+import Navbar from '../Navbar'
 
 function Agencies() {
-  return <div>index</div>;
+  return (
+    <div>
+      <Navbar />
+      Agencies
+    </div>
+  )
 }
 
-export default Agencies;
+export default Agencies

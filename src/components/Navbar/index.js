@@ -29,6 +29,8 @@ function Navbar() {
       'agencies',
       'contact',
     ]
+    // WHY IS THIS NAVIGATE NOT WORKING PROPERLY??
+    navigate('/')
     navigate(path[navbarItemIndex])
   }
 

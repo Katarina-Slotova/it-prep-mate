@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './AgenciesSection.module.css'
 import agenciesImg from '../../images/agencies.png'
 import TwoColumnLayout from '../TwoColumnLayout'
+import { Link } from 'react-router-dom'
+import { FaArrowRight } from 'react-icons/fa'
 
 function Agencies() {
   const leftColumn = <img src={agenciesImg} className={styles.agenciesImage} />
@@ -17,11 +19,14 @@ function Agencies() {
         </p>
         <p>
           Our guide to agencies gives you a rundown of the{' '}
-          <strong>top recruitment agencies</strong>{' '}
-          in Canada, how they can help you find both temporary and permanent
-          positions, and tips on how to make the most of their services.
+          <strong>top recruitment agencies</strong> in Canada, how they can help
+          you find both temporary and permanent positions, and tips on how to
+          make the most of their services.
         </p>
       </div>
+      <Link to='/agencies' className={styles.redirectLink}>
+        <strong>Read more</strong> <FaArrowRight className={styles.arrow} />
+      </Link>
     </div>
   )
 

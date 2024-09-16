@@ -1,9 +1,11 @@
-import React from "react";
-import styles from "./JobSearchGuide.module.css";
+import React from 'react'
+import styles from './JobSearchGuide.module.css'
+import Navbar from '../Navbar'
 
 function JobSearchGuide() {
   return (
     <div>
+      <Navbar />
       <h1 className={styles.title}>Job Search Guide</h1>
       <h1 className={styles.title}>Job Postings</h1>
 
@@ -138,7 +140,7 @@ function JobSearchGuide() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default JobSearchGuide;
+export default JobSearchGuide
