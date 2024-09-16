@@ -1,0 +1,22 @@
+.infoSection {
+  background-color: #acc1c3;
+}
+
+.interviewImage {
+  height: 450px;
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 7px 7px 5px #c4e4e9;
+}
+
+.secondText {
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px 0;
+}
+
+.title {
+  font-family: 'Playfair Display';
+  text-align: left;
+  font-weight: 800;
+}

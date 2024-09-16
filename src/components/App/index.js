@@ -1,24 +1,25 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Intro from "../Intro";
-import SecondSection from "../SecondSection";
-import InterviewGuide from "../InterviewGuide";
 import JobSearchGuide from "../JobSearchGuide";
-import Networking from "../Networking";
-import Agencies from "../Agencies";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Home from "../Home";
+
+const router = createBrowserRouter([
+  {
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/jobsearchguide",
+        element: <JobSearchGuide />,
+      },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <Intro />
-      <SecondSection />
-      <InterviewGuide />
-      <JobSearchGuide />
-      <Networking />
-      <Agencies />
-    </div>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
