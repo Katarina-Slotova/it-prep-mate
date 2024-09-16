@@ -10,7 +10,7 @@ function Networking() {
 
   const leftColumn = (
     <div>
-      <h1 className={styles.title}>Unlock the secrets to successful networking.</h1>
+      <h1 className={styles.title}>Unlock The Secrets To Successful Networking</h1>
       <div className={styles.secondText}>
         <p>
           In today's job market, networking is key to{' '}

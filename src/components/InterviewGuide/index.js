@@ -10,7 +10,7 @@ function InterviewGuide() {
 
   const leftColumn = (
     <div>
-      <h1 className={styles.title}>Ace Your next Interview.</h1>
+      <h1 className={styles.title}>Ace Your Next Interview</h1>
       <div className={styles.secondText}>
         <p>
           Preparing for an interview can be a daunting task, but with the right

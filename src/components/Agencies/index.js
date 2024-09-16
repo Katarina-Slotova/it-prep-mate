@@ -8,7 +8,7 @@ function Agencies() {
 
   const rightColumn = (
     <div>
-      <h1 className={styles.title}>Let Recruitment Agencies work for you </h1>
+      <h1 className={styles.title}>Let Recruitment Agencies Work For You </h1>
       <div className={styles.secondText}>
         <p>
           Recruitment agencies can be invaluable in your job search, offering{' '}

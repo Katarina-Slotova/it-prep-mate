@@ -10,7 +10,7 @@ function JobSearchGuide() {
 
   const rightColumn = (
     <div>
-      <h1 className={styles.title}> Discover your dream job.</h1>
+      <h1 className={styles.title}> Discover Your Dream Job</h1>
       <div className={styles.secondText}>
         <p>
           Finding a job in Canada requires a{' '}
