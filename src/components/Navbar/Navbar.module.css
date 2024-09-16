@@ -30,6 +30,7 @@
   color: hsl(240, 100%, 2%);
   text-decoration: none;
   font-weight: 400;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .navLinkText:hover {
