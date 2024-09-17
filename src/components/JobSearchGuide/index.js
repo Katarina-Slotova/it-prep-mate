@@ -66,12 +66,11 @@ function JobSearchGuide() {
 
   const volunteerCanada = {
     title: 'Volunteer Canada',
-    text: 'VNational platform for finding volunteer opportunities.',
+    text: 'National platform for finding volunteer opportunities.',
   }
 
   return (
     <div>
-      <Navbar />
       <h1 className={styles.title}>Job Search Guide</h1>
       <h2 className={styles.title}>Job Postings</h2>
 

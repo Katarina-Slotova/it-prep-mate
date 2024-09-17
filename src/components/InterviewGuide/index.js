@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 function InterviewGuide() {
   return (
     <div>
-      <Navbar />
+			<Navbar />
       Interview Guide
     </div>
   )

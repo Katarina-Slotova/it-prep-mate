@@ -1,11 +1,13 @@
 import React from 'react'
 import JobSearchGuide from '../JobSearchGuide'
 import InterviewGuide from '../InterviewGuide'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Routes, Route, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from '../Home'
 import Networking from '../Networking'
 import Agencies from '../Agencies'
 import Contact from '../Contact'
+import Navbar from '../Navbar'
+import Footer from '../Footer'
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,20 @@ const router = createBrowserRouter([
 
 function App() {
   return <RouterProvider router={router}></RouterProvider>
+/*    return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/interviewguide' element={<InterviewGuide />}></Route>
+        <Route path='/jobsearchguide' element={<JobSearchGuide />}></Route>
+        <Route path='/networking' element={<Networking />}></Route>
+        <Route path='/agencies' element={<Agencies />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
+      </Routes>
+      <Footer />
+    </>
+  ) */
 }
 
 export default App
