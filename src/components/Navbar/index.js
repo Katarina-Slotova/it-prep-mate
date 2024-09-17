@@ -3,7 +3,8 @@ import styles from './Navbar.module.css'
 import logo from '../../images/NewLogo.png'
 import Sidebar from '../Sidebar'
 import { FaBars } from 'react-icons/fa'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import Agencies from '../AgenciesSection'
 
 function Navbar() {
   const [isSidebarVisible, setIsSidebarVisible] = React.useState(false)
@@ -28,15 +29,17 @@ function Navbar() {
       'agencies',
       'contact',
     ]
+    // WHY IS THIS NAVIGATE NOT WORKING PROPERLY??
+    navigate('/')
     navigate(path[navbarItemIndex])
   }
 
   return (
     <nav className={styles.navbar}>
       <div>
-        <a href='/'>
+        <Link to='/'>
           <img className={styles.styleLogo} src={logo} alt='website logo' />
-        </a>
+        </Link>
       </div>
 
       {isSidebarVisible ? (

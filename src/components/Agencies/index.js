@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react'
+import Navbar from '../Navbar'
 
 function Agencies() {
+
   const leftColumn = <img src={agenciesImg} className={styles.agenciesImage} />
 
   const rightColumn = (
@@ -29,4 +31,4 @@ function Agencies() {
   )
 }
 
-export default Agencies;
+export default Agencies

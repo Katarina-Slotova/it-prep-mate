@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react'
+import Navbar from '../Navbar'
 
 function Networking() {
-  return <div>index</div>;
+  return (
+    <div>
+      <Navbar />
+      Networking
+    </div>
+  )
 }
 
-export default Networking;
+export default Networking

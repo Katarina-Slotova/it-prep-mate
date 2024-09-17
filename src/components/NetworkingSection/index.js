@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './NetworkingSection.module.css'
 import networkingImg from '../../images/networking.png'
 import TwoColumnLayout from '../TwoColumnLayout'
+import { Link } from 'react-router-dom'
+import { FaArrowRight } from 'react-icons/fa'
 
 function Networking() {
   const rightColumn = (
@@ -10,7 +12,9 @@ function Networking() {
 
   const leftColumn = (
     <div>
-      <h1 className={styles.title}>Unlock The Secrets To Successful Networking</h1>
+      <h1 className={styles.title}>
+        Unlock The Secrets To Successful Networking
+      </h1>
       <div className={styles.secondText}>
         <p>
           In today's job market, networking is key to{' '}
@@ -24,6 +28,9 @@ function Networking() {
           <strong>grow your career prospects</strong>.
         </p>
       </div>
+        <Link to='/networking' className={styles.redirectLink}>
+          <strong>Read more</strong> <FaArrowRight className={styles.arrow} />
+        </Link>
     </div>
   )
 

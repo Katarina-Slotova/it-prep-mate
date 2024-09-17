@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 12px;
+}
