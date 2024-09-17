@@ -1,11 +1,17 @@
 import React from 'react'
 import JobSearchGuide from '../JobSearchGuide'
 import InterviewGuide from '../InterviewGuide'
-import { Routes, Route, createBrowserRouter, RouterProvider } from 'react-router-dom'
+import {
+  Routes,
+  Route,
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom'
 import Home from '../Home'
 import Networking from '../Networking'
 import Agencies from '../Agencies'
 import Contact from '../Contact'
+import ResumeGuide from '../ResumeGuide'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
@@ -25,6 +31,10 @@ const router = createBrowserRouter([
         element: <JobSearchGuide />,
       },
       {
+        path: '/resumeguide',
+        element: <ResumeGuide />,
+      },
+      {
         path: '/networking',
         element: <Networking />,
       },
@@ -42,7 +52,7 @@ const router = createBrowserRouter([
 
 function App() {
   return <RouterProvider router={router}></RouterProvider>
-/*    return (
+  /*    return (
     <>
       <Navbar />
       <Routes>
@@ -52,6 +62,7 @@ function App() {
         <Route path='/networking' element={<Networking />}></Route>
         <Route path='/agencies' element={<Agencies />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
+				<Route path='/resumeguide' element={<ResumeGuide />}></Route>
       </Routes>
       <Footer />
     </>

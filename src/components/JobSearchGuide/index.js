@@ -108,7 +108,7 @@ function JobSearchGuide() {
           </li>
         </ul>
         <Link
-          to='/jobsearchguide'
+          to='/resumeguide'
           className={styles.redirectLink}
           style={{ padding: '1%' }}
         >
