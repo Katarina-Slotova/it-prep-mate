@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react'
+import styles from './AgenciesSection.module.css'
+import agenciesImg from '../../images/agencies.png'
+import TwoColumnLayout from '../TwoColumnLayout'
 
 function Agencies() {
   const leftColumn = <img src={agenciesImg} className={styles.agenciesImage} />
 
   const rightColumn = (
     <div>
-      <h1 className={styles.title}>Let Recruitment Agencies work for you </h1>
+      <h1 className={styles.title}>Let Recruitment Agencies Work For You </h1>
       <div className={styles.secondText}>
         <p>
           Recruitment agencies can be invaluable in your job search, offering{' '}
@@ -29,4 +32,4 @@ function Agencies() {
   )
 }
 
-export default Agencies;
+export default Agencies

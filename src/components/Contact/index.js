@@ -1,7 +1,7 @@
 import React from "react";
 
-function Networking() {
+function Contact() {
   return <div>index</div>;
 }
 
-export default Networking;
+export default Contact;
