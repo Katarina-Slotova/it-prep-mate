@@ -1,143 +1,113 @@
 import React from 'react'
 import styles from './JobSearchGuide.module.css'
 import Navbar from '../Navbar'
+import Card from '../Card'
 
 function JobSearchGuide() {
+  const indeed = {
+    title: 'Indeed',
+    text: 'Popular job search engine with listings across various sectors.',
+  }
+
+  const linkedin = {
+    title: 'LinkedIn',
+    text: 'Professional networking site with job postings and company profiles.',
+  }
+
+  const canadaJobs = {
+    title: 'Canada Jobs',
+    text: 'Job search site focusing on opportunities across Canada.',
+  }
+
+  const simplyHired = {
+    title: 'Simply Hired',
+    text: 'Job search engine aggregating listings from multiple sources.',
+  }
+
+  const glassdoor = {
+    title: 'Glassdoor',
+    text: 'Job listings and company reviews, including salary information.',
+  }
+
+  const jobBank = {
+    title: 'Job Bank',
+    text: 'Canada’s national job board for various government job postings.',
+  }
+
+  const goJobs = {
+    title: 'Go Jobs',
+    text: 'Listings of government jobs in Ontario.',
+  }
+
+  const canadaMunicipalJobs = {
+    title: 'Canada Municipal Jobs',
+    text: 'Jobs available in Ontario’s municipal sector.',
+  }
+
+  const ontarioInternshipProgram = {
+    title: 'Ontario Internship Program',
+    text: 'Internships offered by the Ontario government.',
+  }
+
+  const careerEdge = {
+    title: 'Career Edge',
+    text: 'Internship and career development opportunities.',
+  }
+
+  const charityVillage = {
+    title: 'Charity Village',
+    text: 'Volunteer opportunities and nonprofit job listings.',
+  }
+
+  const ontarioVolunteerCenter = {
+    title: 'Ontario Volunteer Center',
+    text: 'Volunteer opportunities and resources across Ontario.',
+  }
+
+  const volunteerCanada = {
+    title: 'Volunteer Canada',
+    text: 'VNational platform for finding volunteer opportunities.',
+  }
+
   return (
     <div>
       <Navbar />
       <h1 className={styles.title}>Job Search Guide</h1>
-      <h1 className={styles.title}>Job Postings</h1>
+      <h2 className={styles.title}>Job Postings</h2>
 
       <div className={styles.cards}>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Indeed</p>
-            <p class={styles.textBody}>
-              Popular job search engine with listings across various sectors.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>LinkedIn</p>
-            <p class={styles.textBody}>
-              Professional networking site with job postings and company
-              profiles.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Canada Jobs</p>
-            <p class={styles.textBody}>
-              Job search site focusing on opportunities across Canada.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Simply Hired</p>
-            <p class={styles.textBody}>
-              Job search engine aggregating listings from multiple sources.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Glassdoor</p>
-            <p class={styles.textBody}>
-              Job listings and company reviews, including salary information.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
+        <Card title={indeed.title} text={indeed.text} />
+        <Card title={linkedin.title} text={linkedin.text} />
+        <Card title={canadaJobs.title} text={canadaJobs.text} />
+        <Card title={simplyHired.title} text={simplyHired.text} />
+        <Card title={glassdoor.title} text={glassdoor.text} />
       </div>
 
-      <h1 className={styles.title}>Government Job Postings</h1>
+      <h2 className={styles.title}>Government Job Postings</h2>
       <div className={styles.cards}>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Job Bank</p>
-            <p class={styles.textBody}>
-              Canada’s national job board for various government job postings.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Go Jobs</p>
-            <p class={styles.textBody}>
-              Listings of government jobs in Ontario.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Canada Municipal Jobs</p>
-            <p class={styles.textBody}>
-              Jobs available in Ontario’s municipal sector.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
+        <Card title={jobBank.title} text={jobBank.text} />
+        <Card title={goJobs.title} text={goJobs.text} />
+        <Card
+          title={canadaMunicipalJobs.title}
+          text={canadaMunicipalJobs.text}
+        />
       </div>
-      <h1 className={styles.title}>Internship Postings</h1>
+      <h2 className={styles.title}>Internship Postings</h2>
       <div className={styles.cards}>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Ontario Internship Program</p>
-            <p class={styles.textBody}>
-              Internships offered by the Ontario government.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Career Edge</p>
-            <p class={styles.textBody}>
-              Internship and career development opportunities.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
+        <Card
+          title={ontarioInternshipProgram.title}
+          text={ontarioInternshipProgram.text}
+        />
+        <Card title={careerEdge.title} text={careerEdge.text} />
       </div>
-      <h1 className={styles.title}>Volunteer Postings</h1>
+      <h2 className={styles.title}>Volunteer Postings</h2>
       <div className={styles.cards}>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Charity Village</p>
-            <p class={styles.textBody}>
-              Volunteer opportunities and nonprofit job listings.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Ontario Volunteer Center</p>
-            <p class={styles.textBody}>
-              Volunteer opportunities and resources across Ontario.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
-        <div class={styles.card}>
-          <div class={styles.cardDetails}>
-            <p class={styles.textTitle}>Volunteer Canada</p>
-            <p class={styles.textBody}>
-              National platform for finding volunteer opportunities.
-            </p>
-          </div>
-          <button class={styles.cardButton}>More info</button>
-        </div>
+        <Card title={charityVillage.title} text={charityVillage.text} />
+        <Card
+          title={ontarioVolunteerCenter.title}
+          text={ontarioVolunteerCenter.text}
+        />
+        <Card title={volunteerCanada.title} text={volunteerCanada.text} />
       </div>
     </div>
   )
