@@ -12,16 +12,16 @@ body {
 }
 
 body {
-  font-family: sans-serif;
   background-color: #e7f2f3;
+  font-family: 'League Spartan', sans-serif;
 }
 
 p {
-  font-family: 'League Spartan', sans-serif;
   font-weight: 300;
   line-height: 30px;
 }
 
-h1,h2 {
+h1,
+h2 {
   margin-top: 0;
 }
