@@ -12,6 +12,7 @@ import Networking from '../Networking'
 import Agencies from '../Agencies'
 import Contact from '../Contact'
 import ResumeGuide from '../ResumeGuide'
+import InterviewGuidelines from '../InterviewGuidelines'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/resumeguide',
         element: <ResumeGuide />,
+      },
+      {
+        path: '/interviewguidelines',
+        element: <InterviewGuidelines />,
       },
       {
         path: '/networking',
@@ -63,6 +68,7 @@ function App() {
         <Route path='/agencies' element={<Agencies />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
 				<Route path='/resumeguide' element={<ResumeGuide />}></Route>
+				<Route path='/interviewguidelines' element={<InterviewGuidelines />}></Route>
       </Routes>
       <Footer />
     </>
