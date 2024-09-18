@@ -75,7 +75,13 @@ function ResumeGuide() {
               Recommended resume sections: Profile Summary (also called Summary
               or Professional Summary); Technical Skills, Work/Professional
               Experience; Volunteering; Projects (if there are too many, choose
-              2-3), Accomplishments; Education & Certificates
+              2-3), Accomplishments; Education & Certificates.
+            </p>
+          </li>
+          <li>
+            <p>
+              Recommended to tailor the resume with the job description of the company
+              you are looking for, by using Job Scanner.
             </p>
           </li>
         </ul>
