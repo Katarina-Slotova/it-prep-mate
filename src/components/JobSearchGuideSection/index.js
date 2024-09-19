@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './JobSearchGuideSection.module.css'
-import jobSearchGuideImg from '../../images/JobSearchGuide.png'
+import * as styles from './JobSearchGuideSection.module.css'
+import jobSearchGuideImg from '../../images/jobSearchGuide.png'
 import TwoColumnLayout from '../TwoColumnLayout'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'

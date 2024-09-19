@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './InterviewGuideSection.module.css'
+import * as styles from './InterviewGuideSection.module.css'
 import interviewImg from '../../images/InterviewGuide.png'
 import TwoColumnLayout from '../TwoColumnLayout'
 import { Link } from 'react-router-dom'

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './InterviewGuidelines.module.css'
+import * as styles from './InterviewGuidelines.module.css'
 import Navbar from '../Navbar'
 import Card from '../Card'
 import { Link } from 'react-router-dom'
@@ -85,7 +85,7 @@ function InterviewGuidelines() {
               <strong>Tell me about yourself.</strong> Focus on your
               professional background, skills, and what you bring to the table.
               Check out our{' '}
-              <Link to='/' className={styles.redirectLink}>
+              <Link to='/underconstruction' className={styles.redirectLink}>
                 Elevator Pitch Guide
               </Link>{' '}
               to make sure you'll keep it short and impressive!
@@ -102,7 +102,7 @@ function InterviewGuidelines() {
               <strong> What are your strengths/weaknesses?</strong> Highlight
               strengths that are relevant to the role. When discussing
               weaknesses, talk about how you are improving them. Check out our{' '}
-              <Link to='/' className={styles.redirectLink}>
+              <Link to='/underconstruction' className={styles.redirectLink}>
                 Non-Technical Questions Guide
               </Link>{' '}
               to find out why storytelling is one of the keys to a successful
@@ -116,7 +116,7 @@ function InterviewGuidelines() {
               </strong>{' '}
               Use the STAR method (Situation, Task, Action, Result) to answer
               behavioral questions. Find out more in our{' '}
-              <Link to='/' className={styles.redirectLink}>
+              <Link to='/underconstruction' className={styles.redirectLink}>
                 Non-Technical Questions Guide
               </Link>
               !
@@ -168,7 +168,7 @@ function InterviewGuidelines() {
               <strong>Prepare examples.</strong> Be ready to talk about specific
               situations, projects or tasks where you made a significant impact.
               Be sure to check out our{' '}
-              <Link to='/' className={styles.redirectLink}>
+              <Link to='/underconstruction' className={styles.redirectLink}>
                 Non-Technical Questions Guide
               </Link>{' '}
               to learn why being a great storyteller matters and what resources
@@ -188,7 +188,7 @@ function InterviewGuidelines() {
               <strong>Prepare for technical or role-specific questions.</strong>{' '}
               If you're wondering what questions interviewers might ask, check
               out our{' '}
-              <Link to='/' className={styles.redirectLink}>
+              <Link to='/underconstruction' className={styles.redirectLink}>
                 Technical Questions Guide
               </Link>{' '}
               to see some examples!
@@ -210,7 +210,7 @@ function InterviewGuidelines() {
               background, and why you're an ideal fit for the role. This is
               usually your response to “Tell me about yourself.” We have an
               entire{' '}
-              <Link to='/' className={styles.redirectLink}>
+              <Link to='/underconstruction' className={styles.redirectLink}>
                 Elevator Pitch Guide
               </Link>{' '}
               that will help you nail this question!

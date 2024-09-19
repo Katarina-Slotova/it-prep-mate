@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './SecondSection.module.css'
+import * as styles from './SecondSection.module.css'
 import jobImg from '../../images/job.jpeg'
 import TwoColumnLayout from '../TwoColumnLayout'
 

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Agencies.module.css";
-import Card from "../Card";
+import LargeCard from "../LargeCard";
 
 function Agencies() {
   const ontario = {
@@ -139,31 +139,19 @@ function Agencies() {
         </ul>
 
         <div className={styles.cards}>
-          <Card
-            className={styles.card}
-            title={ontario.title}
-            text={ontario.text}
-          />
-          <Card
-            className={styles.card}
-            title={workBC.title}
-            text={workBC.text}
-          />
-          <Card
-            className={styles.card}
-            title={alberta.title}
-            text={alberta.text}
-          />
+          <LargeCard title={ontario.title} text={ontario.text} />
+          <LargeCard title={workBC.title} text={workBC.text} />
+          <LargeCard title={alberta.title} text={alberta.text} />
         </div>
         <div className={styles.cards}>
-          <Card title={brunswick.title} text={brunswick.text} />
-          <Card title={quebec.title} text={quebec.text} />
-          <Card title={pei.title} text={pei.text} />
+          <LargeCard title={brunswick.title} text={brunswick.text} />
+          <LargeCard title={quebec.title} text={quebec.text} />
+          <LargeCard title={pei.title} text={pei.text} />
         </div>
         <div className={styles.cards}>
-          <Card title={acces.title} text={acces.text} />
-          <Card title={ywca.title} text={ywca.text} />
-          <Card title={costi.title} text={costi.text} />
+          <LargeCard title={acces.title} text={acces.text} />
+          <LargeCard title={ywca.title} text={ywca.text} />
+          <LargeCard title={costi.title} text={costi.text} />
         </div>
 
         <h2 className={styles.subheading} style={{ textAlign: "left" }}>
@@ -178,19 +166,19 @@ function Agencies() {
         </p>
 
         <div className={styles.cards}>
-          <Card title={randstad.title} text={randstad.text} />
-          <Card title={robertHalf.title} text={robertHalf.text} />
-          <Card title={adecco.title} text={adecco.text} />
+          <LargeCard title={randstad.title} text={randstad.text} />
+          <LargeCard title={robertHalf.title} text={robertHalf.text} />
+          <LargeCard title={adecco.title} text={adecco.text} />
         </div>
         <div className={styles.cards}>
-          <Card title={hays.title} text={hays.text} />
-          <Card title={express.title} text={express.text} />
-          <Card title={talentWorld.title} text={talentWorld.text} />
+          <LargeCard title={hays.title} text={hays.text} />
+          <LargeCard title={express.title} text={express.text} />
+          <LargeCard title={talentWorld.title} text={talentWorld.text} />
         </div>
         <div className={styles.cards}>
-          <Card title={staffingEdge.title} text={staffingEdge.text} />
-          <Card title={workforce.title} text={workforce.text} />
-          <Card title={workopolis.title} text={workopolis.text} />
+          <LargeCard title={staffingEdge.title} text={staffingEdge.text} />
+          <LargeCard title={workforce.title} text={workforce.text} />
+          <LargeCard title={workopolis.title} text={workopolis.text} />
         </div>
       </div>
     </div>

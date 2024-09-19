@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './AgenciesSection.module.css'
+import * as styles from './AgenciesSection.module.css'
 import agenciesImg from '../../images/agencies.png'
 import TwoColumnLayout from '../TwoColumnLayout'
 import { Link } from 'react-router-dom'

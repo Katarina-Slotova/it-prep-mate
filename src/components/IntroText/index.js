@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './IntroText.module.css'
+import * as styles from './IntroText.module.css'
 
 function IntroText() {
   return (

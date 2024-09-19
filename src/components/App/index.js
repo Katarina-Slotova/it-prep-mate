@@ -14,6 +14,7 @@ import Contact from "../Contact";
 import ResumeGuide from "../ResumeGuide";
 import InterviewGuidelines from "../InterviewGuidelines";
 import Navbar from "../Navbar";
+import UnderConstruction from "../UnderConstruction";
 import Footer from "../Footer";
 
 const router = createBrowserRouter([
@@ -92,6 +93,10 @@ const router = createBrowserRouter([
             <Footer />
           </>
         ),
+      },
+      {
+        path: "/underconstruction",
+        element: <UnderConstruction />,
       },
     ],
   },

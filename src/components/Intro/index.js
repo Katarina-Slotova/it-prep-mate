@@ -1,7 +1,7 @@
 import React from 'react'
 import TwoColumnLayout from '../TwoColumnLayout'
 import IntroText from '../IntroText'
-import styles from './Intro.module.css'
+import * as styles from './Intro.module.css'
 import heroImg from '../../images/heroimg.jpeg'
 
 function Intro() {

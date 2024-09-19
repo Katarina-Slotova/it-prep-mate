@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './InterviewGuide.module.css'
+import * as styles from './InterviewGuide.module.css'
 import Card from '../Card'
 import Navbar from '../Navbar'
 import TwoColumnLayout from '../TwoColumnLayout'
@@ -15,19 +15,19 @@ function InterviewGuide() {
   const techQuestions = {
     title: 'Elevator Pitch',
     text: 'Be one step ahead of your interviewer. Have a look at the questions they might ask.',
-    link: '/',
+    link: '/underconstruction',
   }
 
   const otherQuestions = {
     title: 'Technical questions',
     text: 'Be one step ahead of your interviewer. Have a look at the questions they might ask.',
-    link: '/',
+    link: '/underconstruction',
   }
 
   const elevatorPitch = {
     title: 'Non-Technical questions',
     text: 'Be one step ahead of your interviewer. Have a look at the questions they might ask.',
-    link: '/',
+    link: '/underconstruction',
   }
 
   const leftColumn = (

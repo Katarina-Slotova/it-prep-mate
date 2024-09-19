@@ -1,11 +1,11 @@
-import React from 'react'
-import * as styles from './Card.module.css'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import * as styles from "./LargeCard.module.css";
+import { useNavigate } from "react-router-dom";
 
-function Card({ title, text, link }) {
-	const navigate = useNavigate()
+function LargeCard({ title, text, link }) {
+  const navigate = useNavigate();
   function handleRedirect() {
-    navigate(link)
+    navigate(link);
   }
 
   return (
@@ -18,7 +18,7 @@ function Card({ title, text, link }) {
         More info
       </button>
     </div>
-  )
+  );
 }
 
-export default Card
+export default LargeCard;
