@@ -96,7 +96,13 @@ const router = createBrowserRouter([
       },
       {
         path: "/underconstruction",
-        element: <UnderConstruction />,
+        element: (
+          <>
+            <Navbar />
+            <UnderConstruction />
+            <Footer />
+          </>
+        ),
       },
     ],
   },
