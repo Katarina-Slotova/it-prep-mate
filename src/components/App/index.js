@@ -1,62 +1,104 @@
-import React from 'react'
-import JobSearchGuide from '../JobSearchGuide'
-import InterviewGuide from '../InterviewGuide'
+import React from "react";
+import JobSearchGuide from "../JobSearchGuide";
+import InterviewGuide from "../InterviewGuide";
 import {
   Routes,
   Route,
   createBrowserRouter,
   RouterProvider,
-} from 'react-router-dom'
-import Home from '../Home'
-import Networking from '../Networking'
-import Agencies from '../Agencies'
-import Contact from '../Contact'
-import ResumeGuide from '../ResumeGuide'
-import InterviewGuidelines from '../InterviewGuidelines'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
+} from "react-router-dom";
+import Home from "../Home";
+import Networking from "../Networking";
+import Agencies from "../Agencies";
+import Contact from "../Contact";
+import ResumeGuide from "../ResumeGuide";
+import InterviewGuidelines from "../InterviewGuidelines";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 const router = createBrowserRouter([
   {
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home />,
       },
       {
-        path: '/interviewguide',
-        element: <InterviewGuide />,
+        path: "/interviewguide",
+        element: (
+          <>
+            <Navbar />
+            <InterviewGuide />
+            <Footer />
+          </>
+        ),
       },
       {
-        path: '/jobsearchguide',
-        element: <JobSearchGuide />,
+        path: "/jobsearchguide",
+        element: (
+          <>
+            <Navbar />
+            <JobSearchGuide />
+            <Footer />
+          </>
+        ),
       },
       {
-        path: '/resumeguide',
-        element: <ResumeGuide />,
+        path: "/resumeguide",
+        element: (
+          <>
+            <Navbar />
+            <ResumeGuide />
+            <Footer />
+          </>
+        ),
       },
       {
-        path: '/interviewguidelines',
-        element: <InterviewGuidelines />,
+        path: "/interviewguidelines",
+        element: (
+          <>
+            <Navbar />
+            <InterviewGuidelines />
+            <Footer />
+          </>
+        ),
       },
       {
-        path: '/networking',
-        element: <Networking />,
+        path: "/networking",
+        element: (
+          <>
+            <Navbar />
+            <Networking />
+            <Footer />
+          </>
+        ),
       },
       {
-        path: '/agencies',
-        element: <Agencies />,
+        path: "/agencies",
+        element: (
+          <>
+            <Navbar />
+            <Agencies />
+            <Footer />
+          </>
+        ),
       },
       {
-        path: '/contact',
-        element: <Contact />,
+        path: "/contact",
+        element: (
+          <>
+            <Navbar />
+            <Contact />
+            <Footer />
+          </>
+        ),
       },
     ],
   },
-])
+]);
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>
+  return <RouterProvider router={router}></RouterProvider>;
   /*    return (
     <>
       <Navbar />
@@ -75,4 +117,4 @@ function App() {
   ) */
 }
 
-export default App
+export default App;
