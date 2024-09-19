@@ -1,11 +1,15 @@
-import React from 'react'
-import * as styles from './Card.module.css'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import * as styles from "./Card.module.css";
+import { useNavigate } from "react-router-dom";
 
-function Card({ title, text, link }) {
-	const navigate = useNavigate()
+function Card({ title, text, link, isLink }) {
+  const navigate = useNavigate();
   function handleRedirect() {
-    navigate(link)
+    if (isLink) {
+      window.open(link, "_blank");
+    } else {
+      navigate(link);
+    }
   }
 
   return (
@@ -18,7 +22,7 @@ function Card({ title, text, link }) {
         More info
       </button>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;

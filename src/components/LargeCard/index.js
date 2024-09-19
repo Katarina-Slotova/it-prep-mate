@@ -2,10 +2,14 @@ import React from "react";
 import * as styles from "./LargeCard.module.css";
 import { useNavigate } from "react-router-dom";
 
-function LargeCard({ title, text, link }) {
+function LargeCard({ title, text, link, isLink }) {
   const navigate = useNavigate();
   function handleRedirect() {
-    navigate(link);
+    if (isLink) {
+      window.open(link, "_blank");
+    } else {
+      navigate(link);
+    }
   }
 
   return (
