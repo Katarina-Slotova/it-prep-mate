@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Navbar.module.css'
+import * as styles from './Navbar.module.css'
 import logo from '../../images/NewLogo.png'
 import Sidebar from '../Sidebar'
 import { FaBars } from 'react-icons/fa'

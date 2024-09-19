@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './TwoColumnLayout.module.css'
+import * as styles from './TwoColumnLayout.module.css'
 
 function TwoColumnLayout({ leftColumn, rightColumn }) {
   return (

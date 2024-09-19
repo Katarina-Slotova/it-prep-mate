@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './InterviewGuide.module.css'
+import * as styles from './InterviewGuide.module.css'
 import Card from '../Card'
 import Navbar from '../Navbar'
 import TwoColumnLayout from '../TwoColumnLayout'

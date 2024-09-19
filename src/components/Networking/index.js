@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Networking.module.css'
+import * as styles from './Networking.module.css'
 import Card from '../Card'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'

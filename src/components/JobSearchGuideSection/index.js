@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './JobSearchGuideSection.module.css'
+import * as styles from './JobSearchGuideSection.module.css'
 import jobSearchGuideImg from '../../images/jobSearchGuide.png'
 import TwoColumnLayout from '../TwoColumnLayout'
 import { Link } from 'react-router-dom'

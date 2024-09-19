@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './NetworkingSection.module.css'
+import * as styles from './NetworkingSection.module.css'
 import networkingImg from '../../images/networking.png'
 import TwoColumnLayout from '../TwoColumnLayout'
 import { Link } from 'react-router-dom'

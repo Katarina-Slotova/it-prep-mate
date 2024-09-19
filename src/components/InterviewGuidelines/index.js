@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './InterviewGuidelines.module.css'
+import * as styles from './InterviewGuidelines.module.css'
 import Navbar from '../Navbar'
 import Card from '../Card'
 import { Link } from 'react-router-dom'
