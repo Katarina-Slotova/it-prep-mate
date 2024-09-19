@@ -104,7 +104,7 @@ function Networking() {
             <p>
               <strong>Want to know more? </strong>
               Check out our{' '}
-              <Link to='/' className={styles.redirectLink}>
+              <Link to='/underconstruction' className={styles.redirectLink}>
                 Elevator Pitch Guide
               </Link>{' '}
               to find out more on how to keep your elevator pitch short and

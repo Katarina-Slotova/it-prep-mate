@@ -13,6 +13,7 @@ import Agencies from '../Agencies'
 import Contact from '../Contact'
 import ResumeGuide from '../ResumeGuide'
 import InterviewGuidelines from '../InterviewGuidelines'
+import UnderConstruction from '../UnderConstruction'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: '/agencies',
         element: <Agencies />,
+      },
+      {
+        path: '/underconstruction',
+        element: <UnderConstruction />,
       },
       {
         path: '/contact',
