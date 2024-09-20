@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Networking() {
   const leftColumn = (
     <div className={styles.intro}>
-      <p className={styles.introText}>
+      <p>
         Let's face it — networking can seem a bit intimidating. And
         understandably so! Walking into a room full of strangers, not sure where
         to start, how to approach new connections online, what to say. Who
