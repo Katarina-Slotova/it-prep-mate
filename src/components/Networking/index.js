@@ -1,34 +1,45 @@
 import React from 'react'
 import * as styles from './Networking.module.css'
 import Card from '../Card'
+import TwoColumnLayout from '../TwoColumnLayout'
+import networkingImg from '../../images/networking.png'
 import { Link } from 'react-router-dom'
-import { FaArrowRight } from 'react-icons/fa'
 
 function Networking() {
+  const leftColumn = (
+    <div className={styles.intro}>
+      <p className={styles.introText}>
+        Let's face it — networking can seem a bit intimidating. And
+        understandably so! Walking into a room full of strangers, not sure where
+        to start, how to approach new connections online, what to say. Who
+        wouldn't get nervous? Yes, we've all been there... But trust us, it gets
+        easier. A little bit of preparation and the right mindset goes a long
+        way when it comes to networking. Think of it as just{' '}
+        <strong>
+          having conversations with people who share your interests
+        </strong>
+        . The more you do it, the more natural it becomes.
+      </p>
+      <p>
+        Whether you're meeting people at an event or connecting online, building
+        meaningful relationships with professionals in the tech field is key to
+        career growth. This guide will give you some easy tips to{' '}
+        <strong>boost your confidence</strong>, make networking less scary and
+        more rewarding, so you can{' '}
+        <strong>turn those connections into real opportunities</strong>.
+      </p>
+      <p>No pressure, just take it one step at a time. You've got this!</p>
+    </div>
+  )
+
+  const rightColumn = (
+    <img src={networkingImg} className={styles.networkingImg} />
+  )
   return (
     <div>
       <h1 className={styles.title}>Networking</h1>
 
-      <div className={styles.intro}>
-        <p>
-          Let's face it — networking can seem a bit intimidating. And
-          understandably so! Walking into a room full of strangers, not sure
-          where to start, how to approach new connections online, what to say.
-          Who wouldn't get nervous? Yes, we've all been there... But trust us,
-          it gets easier. A little bit of preparation and the right mindset goes
-          a long way when it comes to networking. Think of it as just having
-          conversations with people who share your interests. The more you do
-          it, the more natural it becomes.
-        </p>
-        <p>
-          Whether you're meeting people at an event or connecting online,
-          building meaningful relationships with professionals in the tech field
-          is key to career growth. This guide will give you some easy tips to
-          boost your confidence, make networking less scary and more rewarding,
-          so you can turn those connections into real opportunities. No
-          pressure, just take it one step at a time. You've got this!
-        </p>
-      </div>
+      <TwoColumnLayout leftColumn={leftColumn} rightColumn={rightColumn} />
 
       <h2 className={styles.guidelineTitle}>
         1. Define Your Networking Goals as a Newcomer

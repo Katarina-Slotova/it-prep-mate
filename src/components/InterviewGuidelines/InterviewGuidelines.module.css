@@ -1,8 +1,8 @@
 .guidelineTitle {
   font-family: 'Playfair Display';
   font-size: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-weight: 800;
   margin: 0;
   color: #db634d;
@@ -28,8 +28,8 @@
 
 .intro {
   display: block;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 3%;
   font-size: 1.2rem;
   text-align: justify;

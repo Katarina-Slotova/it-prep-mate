@@ -9,7 +9,7 @@ function InterviewGuidelines() {
     <div>
       <h1 className={styles.title}>General Interview Guidelines</h1>
       <div className={styles.intro}>
-        <p>SOME INTRO TEXT? IMAGE?</p>
+        {/* <p>SOME INTRO TEXT? IMAGE?</p> */}
       </div>
       <h2 className={styles.guidelineTitle}>
         1. Understanding the Job Description
