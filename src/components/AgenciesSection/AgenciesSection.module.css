@@ -8,6 +8,17 @@
   border-radius: 12px;
   box-shadow: 7px 7px 5px #c4e4e9;
 }
+@media screen and (max-width: 950px) {
+  .agenciesImage{
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .agenciesImage{
+    transform: scale(0.8);
+  }
+}
 
 .secondText {
   font-size: 20px;

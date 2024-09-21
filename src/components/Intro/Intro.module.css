@@ -4,3 +4,15 @@
   border-radius: 12px;
   box-shadow: 7px 7px 5px rgb(246, 185, 185);
 }
+
+@media screen and (max-width: 950px) {
+  .heroImage{
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .heroImage{
+    transform: scale(0.8);
+  }
+}
