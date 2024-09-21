@@ -10,13 +10,15 @@
 }
 @media screen and (max-width: 950px) {
   .agenciesImage{
-    transform: scale(0.9);
+    height: 300px;
+  width: 400px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .agenciesImage{
-    transform: scale(0.8);
+    height: 200px;
+    width: 250px;
   }
 }
 
