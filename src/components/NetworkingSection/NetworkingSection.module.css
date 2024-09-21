@@ -5,6 +5,18 @@
   box-shadow: 7px 7px 5px rgb(246, 185, 185);
 }
 
+@media screen and (max-width: 950px) {
+  .networkingImg{
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .networkingImg{
+    transform: scale(0.8);
+  }
+}
+
 .secondText {
   font-size: 20px;
   text-align: justify;
