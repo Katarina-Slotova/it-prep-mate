@@ -7,12 +7,14 @@
 
 @media screen and (max-width: 950px) {
   .heroImage{
-    transform: scale(0.9);
+    width: 28rem;
+    height: 30rem;
   }
 }
 
 @media screen and (max-width: 650px) {
   .heroImage{
-    transform: scale(0.8);
+    width: 22rem;
+    height: 24rem;
   }
 }
