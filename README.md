@@ -5,8 +5,10 @@ Welcome to **ItPrepMate**, a project designed to help newcomers to Canada kickst
 
 ⚠️ **Please note:** This project is currently a **work in progress**. Our team actively developing and enhancing features, so stay tuned for updates! Feedback and suggestions are always welcome.
 
-_~ Aayushi, Katarina, Kriti & Swapna ~_
+*~ Aayushi, Katarina, Kriti & Swapna ~*
 </div>  
+
+</br>
 
 # ItPrepMate - Your Tech Career Prep Companion
 
