@@ -1,6 +1,6 @@
 # ItPrepMate - Your Tech Career Prep Companion
 <div align="center">
-## 🚧 Work in Progress 🚧
+🚧 Work in Progress 🚧
 
 Welcome to **ItPrepMate**, a project designed to help newcomers to Canada kickstart their careers in tech. This platform offers essential resources for job searching, interview preparation, and networking guidance, all in one place.
 
