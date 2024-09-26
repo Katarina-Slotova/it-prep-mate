@@ -5,7 +5,7 @@ Welcome to **ItPrepMate**, a project designed to help newcomers to Canada kickst
 
 ⚠️ **Please note:** This project is currently a **work in progress**. Our team actively developing and enhancing features, so stay tuned for updates!
 
-The ItPrepMate app is live! We invite you to explore the platform and experience all its features yourself. Check it out [here](https://itprepmate.netlify.app/) and feel free to share any feedback or suggestions as we continue to improve the platform.
+🚀 The ItPrepMate app is live! We invite you to explore the platform and experience all its features yourself. Check it out [here](https://itprepmate.netlify.app/) and feel free to share any feedback or suggestions as we continue to improve the platform.
 
 ***Aayushi, Katarina, Kriti & Swapna***
 </div>  
