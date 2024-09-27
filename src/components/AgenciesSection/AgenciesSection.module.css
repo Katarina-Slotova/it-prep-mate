@@ -10,15 +10,15 @@
 }
 @media screen and (max-width: 950px) {
   .agenciesImage{
-    height: 300px;
-  width: 400px;
+    width: 448px;
+    height: 480px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .agenciesImage{
-    height: 200px;
-    width: 250px;
+    height: 384px;
+    width: 352px;
   }
 }
 
