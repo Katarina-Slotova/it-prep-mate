@@ -1,0 +1,30 @@
+.intro {
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.guidelineTitle {
+  font-family: 'Playfair Display';
+  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 800;
+  margin: 0;
+  color: #db634d;
+}
+
+.redirectLink {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.redirectLink:hover {
+  color: #db634d;
+  transition: all 0.4s;
+}

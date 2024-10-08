@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from "../Home";
 import Networking from "../Networking";
+import NetworkingTips from '../NetworkingTips';
 import Agencies from "../Agencies";
 import Contact from "../Contact";
 import ResumeGuide from "../ResumeGuide";
@@ -70,6 +71,16 @@ const router = createBrowserRouter([
           <>
             <Navbar />
             <Networking />
+            <Footer />
+          </>
+        ),
+      },
+			{
+        path: "/networkingtips",
+        element: (
+          <>
+            <Navbar />
+            <NetworkingTips />
             <Footer />
           </>
         ),
