@@ -1,10 +1,13 @@
 import React from 'react'
 import * as styles from './NetworkingTips.module.css'
 import { Link } from 'react-router-dom'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function NetworkingTips() {
   return (
     <div>
+      <h1 className={styles.title}>Networking Tips</h1>
+
       <h2 className={styles.guidelineTitle}>
         1. Define Your Networking Goals as a Newcomer
       </h2>
@@ -442,6 +445,12 @@ function NetworkingTips() {
             <p>Embrace the learning experience!</p>
           </li>
         </ul>
+      </div>
+      <div className={styles.intro}>
+        <Link to='/agencies' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Networking main page</strong>
+        </Link>
       </div>
     </div>
   )
