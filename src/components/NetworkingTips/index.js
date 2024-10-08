@@ -447,7 +447,7 @@ function NetworkingTips() {
         </ul>
       </div>
       <div className={styles.intro}>
-        <Link to='/agencies' className={styles.redirectLink}>
+        <Link to='/networking' className={styles.redirectLink}>
           <FaArrowLeft className={styles.arrow} />{' '}
           <strong>Go back to Networking main page</strong>
         </Link>
