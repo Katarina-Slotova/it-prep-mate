@@ -3,7 +3,6 @@ import * as styles from './Networking.module.css'
 import Card from '../Card'
 import TwoColumnLayout from '../TwoColumnLayout'
 import networkingImg from '../../images/networking.png'
-import { Link } from 'react-router-dom'
 
 function Networking() {
   const leftColumn = (
@@ -45,7 +44,7 @@ function Networking() {
   const communities = {
     title: 'Communities',
     text: "Discover your tribe - join Canada's thriving tech communities and fuel your growth!",
-    link: '/underconstruction',
+    link: '/communities',
   }
 
   return (

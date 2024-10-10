@@ -1,32 +1,33 @@
-import React from "react";
-import JobSearchGuide from "../JobSearchGuide";
-import InterviewGuide from "../InterviewGuide";
+import React from 'react'
+import JobSearchGuide from '../JobSearchGuide'
+import InterviewGuide from '../InterviewGuide'
 import {
   Routes,
   Route,
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
-import Home from "../Home";
-import Networking from "../Networking";
-import NetworkingTips from '../NetworkingTips';
-import Agencies from "../Agencies";
-import Contact from "../Contact";
-import ResumeGuide from "../ResumeGuide";
-import InterviewGuidelines from "../InterviewGuidelines";
-import Navbar from "../Navbar";
-import UnderConstruction from "../UnderConstruction";
-import Footer from "../Footer";
+} from 'react-router-dom'
+import Home from '../Home'
+import Networking from '../Networking'
+import NetworkingTips from '../NetworkingTips'
+import Agencies from '../Agencies'
+import Contact from '../Contact'
+import ResumeGuide from '../ResumeGuide'
+import InterviewGuidelines from '../InterviewGuidelines'
+import Navbar from '../Navbar'
+import UnderConstruction from '../UnderConstruction'
+import Footer from '../Footer'
+import Communities from '../Communities'
 
 const router = createBrowserRouter([
   {
     children: [
       {
-        path: "/",
+        path: '/',
         element: <Home />,
       },
       {
-        path: "/interviewguide",
+        path: '/interviewguide',
         element: (
           <>
             <Navbar />
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/jobsearchguide",
+        path: '/jobsearchguide',
         element: (
           <>
             <Navbar />
@@ -46,7 +47,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/resumeguide",
+        path: '/resumeguide',
         element: (
           <>
             <Navbar />
@@ -56,7 +57,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/interviewguidelines",
+        path: '/interviewguidelines',
         element: (
           <>
             <Navbar />
@@ -66,7 +67,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/networking",
+        path: '/networking',
         element: (
           <>
             <Navbar />
@@ -75,8 +76,8 @@ const router = createBrowserRouter([
           </>
         ),
       },
-			{
-        path: "/networkingtips",
+      {
+        path: '/networkingtips',
         element: (
           <>
             <Navbar />
@@ -86,7 +87,17 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/agencies",
+        path: '/communities',
+        element: (
+          <>
+            <Navbar />
+            <Communities />
+            <Footer />
+          </>
+        ),
+      },
+      {
+        path: '/agencies',
         element: (
           <>
             <Navbar />
@@ -96,7 +107,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/contact",
+        path: '/contact',
         element: (
           <>
             <Navbar />
@@ -106,7 +117,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/underconstruction",
+        path: '/underconstruction',
         element: (
           <>
             <Navbar />
@@ -117,10 +128,10 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+])
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+  return <RouterProvider router={router}></RouterProvider>
   /*    return (
     <>
       <Navbar />
@@ -139,4 +150,4 @@ function App() {
   ) */
 }
 
-export default App;
+export default App

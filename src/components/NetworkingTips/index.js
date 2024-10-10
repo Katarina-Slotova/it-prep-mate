@@ -146,13 +146,18 @@ function NetworkingTips() {
                 Don't know where to start? Here are some suggestions.
               </strong>{' '}
               Try{' '}
-              <a href='https://www.meetup.com/' className={styles.redirectLink}>
+              <a
+                href='https://www.meetup.com/'
+                className={styles.redirectLink}
+                target='_blank'
+              >
                 Meetup
               </a>{' '}
               or{' '}
               <a
                 href='https://www.eventbrite.ca/d/canada/job-fairs/'
                 className={styles.redirectLink}
+                target='_blank'
               >
                 Eventbrite
               </a>
@@ -160,6 +165,7 @@ function NetworkingTips() {
               <a
                 href='https://www.jobbank.gc.ca/findajob/employment-centres'
                 className={styles.redirectLink}
+                target='_blank'
               >
                 {' '}
                 employment centers
