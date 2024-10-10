@@ -1,6 +1,6 @@
 import React from 'react'
 import * as styles from './Communities.module.css'
-import Card from '../Card'
+import LargeCard from '../LargeCard'
 import TwoColumnLayout from '../TwoColumnLayout'
 import communityImg from '../../images/community.webp'
 import { Link } from 'react-router-dom'
@@ -15,7 +15,7 @@ function Communities() {
         <strong>deepen your involvement in the industry</strong>,{' '}
         <strong>meet like-minded professionals</strong>, or{' '}
         <strong>stay updated on the latest trends</strong>, this section
-        connects you to key tech communities across Canada. These groups offer
+        connects you to tech communities across Canada. These groups offer
         support, knowledge sharing, and collaboration opportunities that can
         help you thrive. Dive in and find your place in the country's dynamic
         tech ecosystem!
@@ -38,16 +38,32 @@ function Communities() {
 
   const rightColumn = <img src={communityImg} className={styles.communityImg} />
 
-  const tips = {
-    title: 'Networking tips',
-    text: "Connect, grow, and thrive in Canada's tech scene. Network your way to success with our tips!",
-    link: '/networkingtips',
+  const techto = {
+    title: 'TechTO',
+    text: "Join 60,000+ subscribers reading TechTO's weekly newsletters. Stay in the loop. Connect with the community. Learn about events and careers.",
+    link: 'https://www.techto.org/',
+    isLink: true,
   }
 
-  const communities = {
-    title: 'Communities',
-    text: "Discover your tribe - join Canada's thriving tech communities and fuel your growth!",
-    link: '/underconstruction',
+  const canadaitclub = {
+    title: 'Canada IT Club',
+    text: 'Dynamic community that brings together IT professionals from across Canada, fostering collaboration, knowledge sharing, and career growth',
+    link: 'https://canadaitclub.ca/',
+    isLink: true,
+  }
+
+  const techinto = {
+    title: 'TechinTO',
+    text: 'The Hub for Entrepreneurs & Tech Talent in Toronto. Expand your network. Meet fellow creators. Showcase your work.',
+    link: 'https://www.techinto.ca/',
+    isLink: true,
+  }
+
+  const womenintech = {
+    title: 'Women in Tech Canada',
+    text: 'Official chapter for Women in Tech Canada, part of the global Women in Tech movement. Dynamic and inclusive community dedicated to fostering empowerment, diversity, and innovation within the technology sector.',
+    link: 'https://women-in-tech.org/ca/',
+    isLink: true,
   }
 
   return (
@@ -57,11 +73,29 @@ function Communities() {
       <TwoColumnLayout leftColumn={leftColumn} rightColumn={rightColumn} />
 
       <div className={styles.cards}>
-        <Card title={tips.title} text={tips.text} link={tips.link} />
-        <Card
-          title={communities.title}
-          text={communities.text}
-          link={communities.link}
+        <LargeCard
+          title={canadaitclub.title}
+          text={canadaitclub.text}
+          link={canadaitclub.link}
+          isLink={canadaitclub.isLink}
+        />
+        <LargeCard
+          title={womenintech.title}
+          text={womenintech.text}
+          link={womenintech.link}
+          isLink={womenintech.isLink}
+        />
+        <LargeCard
+          title={techto.title}
+          text={techto.text}
+          link={techto.link}
+          isLink={techto.isLink}
+        />
+        <LargeCard
+          title={techinto.title}
+          text={techinto.text}
+          link={techinto.link}
+          isLink={techinto.isLink}
         />
       </div>
     </div>
