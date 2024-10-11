@@ -30,9 +30,14 @@ function TechnicalInterview() {
 
   const interviewquestions = {
     title: 'Common Interview Questions',
-    text: '',
+    text: 'Prepare for your next interview with a collection of common technical questions. Confidently navigate the non-coding aspects of technical interviews.',
     link: '/underconstruction',
-    
+  }
+  const freeCodeCamp = {
+    title: 'freeCodeCamp',
+    text: 'The freeCodeCamp Coding Interview Prep page offers over 1,000 challenges focused on data structures, algorithms, and logic-based questions to help you prepare for technical interviews.',
+    link: 'https://www.freecodecamp.org/learn/coding-interview-prep/',
+    isLink: true,
   }
 
   const leetcode = {
@@ -56,6 +61,12 @@ function TechnicalInterview() {
           text={leetcode.text}
           link={leetcode.link}
           isLink={leetcode.isLink}
+        />
+        <LargeCard
+          title={freeCodeCamp.title}
+          text={freeCodeCamp.text}
+          link={freeCodeCamp.link}
+          isLink={freeCodeCamp.isLink}
         />
         <LargeCard
           title={interviewquestions.title}
