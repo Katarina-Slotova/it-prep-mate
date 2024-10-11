@@ -12,19 +12,19 @@ function InterviewGuide() {
     link: '/interviewguidelines',
   }
 
-  const techQuestions = {
+  const elevatorPitch = {
     title: 'Elevator Pitch',
     text: 'Be one step ahead of your interviewer. Have a look at the questions they might ask.',
     link: '/underconstruction',
   }
 
-  const otherQuestions = {
+  const techQuestions = {
     title: 'Technical questions',
     text: 'Be one step ahead of your interviewer. Have a look at the questions they might ask.',
-    link: '/underconstruction',
+    link: '/techquestions',
   }
 
-  const elevatorPitch = {
+  const otherQuestions = {
     title: 'Non-Technical questions',
     text: 'Be one step ahead of your interviewer. Have a look at the questions they might ask.',
     link: '/underconstruction',
@@ -67,6 +67,11 @@ function InterviewGuide() {
           link={guidelines.link}
         />
         <Card
+          title={elevatorPitch.title}
+          text={elevatorPitch.text}
+          link={elevatorPitch.link}
+        />
+        <Card
           title={techQuestions.title}
           text={techQuestions.text}
           link={techQuestions.link}
@@ -75,11 +80,6 @@ function InterviewGuide() {
           title={otherQuestions.title}
           text={otherQuestions.text}
           link={otherQuestions.link}
-        />
-        <Card
-          title={elevatorPitch.title}
-          text={elevatorPitch.text}
-          link={elevatorPitch.link}
         />
       </div>
     </div>

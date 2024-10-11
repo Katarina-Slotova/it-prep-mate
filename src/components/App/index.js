@@ -1,6 +1,7 @@
 import React from 'react'
 import JobSearchGuide from '../JobSearchGuide'
 import InterviewGuide from '../InterviewGuide'
+import TechnicalInterview from '../TechnicalInterview'
 import {
   Routes,
   Route,
@@ -32,6 +33,16 @@ const router = createBrowserRouter([
           <>
             <Navbar />
             <InterviewGuide />
+            <Footer />
+          </>
+        ),
+      },
+      {
+        path: '/techquestions',
+        element: (
+          <>
+            <Navbar />
+            <TechnicalInterview />
             <Footer />
           </>
         ),
