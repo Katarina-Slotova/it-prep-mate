@@ -4,12 +4,14 @@ import Card from '../Card'
 import Navbar from '../Navbar'
 import TwoColumnLayout from '../TwoColumnLayout'
 import interviewImg from '../../images/InterviewGuide.png'
+import { Link } from 'react-router-dom'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function InterviewGuide() {
   const guidelines = {
     title: 'General interview guidelines',
     text: 'Navigate any interview confidently. Impress your interviewer.',
-    link: '/interviewguidelines',
+    link: '/interviewguide/interviewguidelines',
   }
 
   const elevatorPitch = {
@@ -21,7 +23,7 @@ function InterviewGuide() {
   const techQuestions = {
     title: 'Technical questions',
     text: 'Be one step ahead of your interviewer. Have a look at the questions they might ask.',
-    link: '/techquestions',
+    link: '/interviewguide/techquestions',
   }
 
   const otherQuestions = {
@@ -81,6 +83,13 @@ function InterviewGuide() {
           text={otherQuestions.text}
           link={otherQuestions.link}
         />
+      </div>
+
+      <div className={styles.posArrow}>
+        <Link to='/' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Home page</strong>
+        </Link>
       </div>
     </div>
   )

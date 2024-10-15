@@ -3,6 +3,8 @@ import * as styles from './Networking.module.css'
 import Card from '../Card'
 import TwoColumnLayout from '../TwoColumnLayout'
 import networkingImg from '../../images/networking.png'
+import { Link } from 'react-router-dom'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function Networking() {
   const leftColumn = (
@@ -38,13 +40,13 @@ function Networking() {
   const tips = {
     title: 'Networking tips',
     text: "Connect, grow, and thrive in Canada's tech scene. Network your way to success with our tips!",
-    link: '/networkingtips',
+    link: '/networking/networkingtips',
   }
 
   const communities = {
     title: 'Communities',
     text: "Discover your tribe - join Canada's thriving tech communities and fuel your growth!",
-    link: '/communities',
+    link: '/networking/communities',
   }
 
   return (
@@ -56,16 +58,19 @@ function Networking() {
       <h2 className={styles.subheading}>What can we help you with?</h2>
 
       <div className={styles.cards}>
-        <Card
-          title={tips.title}
-          text={tips.text}
-          link={tips.link}
-        />
+        <Card title={tips.title} text={tips.text} link={tips.link} />
         <Card
           title={communities.title}
           text={communities.text}
           link={communities.link}
         />
+      </div>
+
+      <div className={styles.posArrow}>
+        <Link to='/' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Home page</strong>
+        </Link>
       </div>
     </div>
   )

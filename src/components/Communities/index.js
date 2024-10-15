@@ -4,6 +4,7 @@ import LargeCard from '../LargeCard'
 import TwoColumnLayout from '../TwoColumnLayout'
 import communityImg from '../../images/community.webp'
 import { Link } from 'react-router-dom'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function Communities() {
   const leftColumn = (
@@ -97,6 +98,13 @@ function Communities() {
           link={techinto.link}
           isLink={techinto.isLink}
         />
+      </div>
+
+      <div className={styles.posArrow}>
+        <Link to='/networking' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Networking main page</strong>
+        </Link>
       </div>
     </div>
   )

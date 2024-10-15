@@ -4,6 +4,7 @@ import LargeCard from '../LargeCard'
 import TwoColumnLayout from '../TwoColumnLayout'
 import techinterviewImg from '../../images/techinterview.webp'
 import { Link } from 'react-router-dom'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function TechnicalInterview() {
   const leftColumn = (
@@ -74,6 +75,13 @@ function TechnicalInterview() {
           link={interviewquestions.link}
           isLink={interviewquestions.isLink}
         />
+      </div>
+
+      <div className={styles.posArrow}>
+        <Link to='/interviewguide' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Interview Guide main page</strong>
+        </Link>
       </div>
     </div>
   )

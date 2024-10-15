@@ -38,7 +38,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/techquestions',
+        path: '/interviewguide/techquestions',
         element: (
           <>
             <Navbar />
@@ -68,7 +68,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/interviewguidelines',
+        path: '/interviewguide/interviewguidelines',
         element: (
           <>
             <Navbar />
@@ -88,7 +88,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/networkingtips',
+        path: '/networking/networkingtips',
         element: (
           <>
             <Navbar />
@@ -98,7 +98,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/communities',
+        path: '/networking/communities',
         element: (
           <>
             <Navbar />

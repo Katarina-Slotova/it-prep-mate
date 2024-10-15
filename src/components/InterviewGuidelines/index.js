@@ -3,14 +3,13 @@ import * as styles from './InterviewGuidelines.module.css'
 import Navbar from '../Navbar'
 import Card from '../Card'
 import { Link } from 'react-router-dom'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function InterviewGuidelines() {
   return (
     <div>
       <h1 className={styles.title}>General Interview Guidelines</h1>
-      <div className={styles.intro}>
-        {/* <p>SOME INTRO TEXT? IMAGE?</p> */}
-      </div>
+      <div className={styles.intro}>{/* <p>SOME INTRO TEXT? IMAGE?</p> */}</div>
       <h2 className={styles.guidelineTitle}>
         1. Understanding the Job Description
       </h2>
@@ -347,6 +346,12 @@ function InterviewGuidelines() {
         <p className={styles.signature}>
           ~ Best of luck! You've got this & we're cheering you on! ~
         </p>
+      </div>
+      <div className={styles.posArrow}>
+        <Link to='/interviewguide' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Interview Guide main page</strong>
+        </Link>
       </div>
     </div>
   )
