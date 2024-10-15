@@ -18,6 +18,15 @@
   margin: 0;
 }
 
+.posArrow {
+  display: block;
+  padding-left: 9%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
 .arrow {
   padding: 0 10px;
   font-size: 14px;

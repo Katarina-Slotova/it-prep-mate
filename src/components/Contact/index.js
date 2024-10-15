@@ -1,5 +1,7 @@
 import React from 'react'
 import * as styles from './Contact.module.css'
+import { Link } from 'react-router-dom'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function Contact() {
   return (
@@ -55,6 +57,13 @@ function Contact() {
             Connect with me on LinkedIn
           </a>
         </p>
+      </div>
+
+      <div className={styles.posArrow}>
+        <Link to='/' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Home page</strong>
+        </Link>
       </div>
     </div>
   )

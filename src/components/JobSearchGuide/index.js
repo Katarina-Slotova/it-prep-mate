@@ -1,108 +1,108 @@
-import React from "react";
-import * as styles from "./JobSearchGuide.module.css";
-import Navbar from "../Navbar";
-import Card from "../Card";
-import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
+import React from 'react'
+import * as styles from './JobSearchGuide.module.css'
+import Navbar from '../Navbar'
+import Card from '../Card'
+import { Link } from 'react-router-dom'
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
 
 function JobSearchGuide() {
   const indeed = {
-    title: "Indeed",
-    text: "Popular job search engine with listings across various sectors.",
-    link: "http://www.indeed.ca/",
+    title: 'Indeed',
+    text: 'Popular job search engine with listings across various sectors.',
+    link: 'http://www.indeed.ca/',
     isLink: true,
-  };
+  }
 
   const linkedin = {
-    title: "LinkedIn",
-    text: "Professional networking site with job postings and company profiles.",
-    link: "http://www.linkedin.com/jobs/",
+    title: 'LinkedIn',
+    text: 'Professional networking site with job postings and company profiles.',
+    link: 'http://www.linkedin.com/jobs/',
     isLink: true,
-  };
+  }
 
   const canadaJobs = {
-    title: "Canada Jobs",
-    text: "Job search site focusing on opportunities across Canada.",
-    link: "http://www.canadajobs.com",
+    title: 'Canada Jobs',
+    text: 'Job search site focusing on opportunities across Canada.',
+    link: 'http://www.canadajobs.com',
     isLink: true,
-  };
+  }
 
   const simplyHired = {
-    title: "Simply Hired",
-    text: "Job search engine aggregating listings from multiple sources.",
-    link: "http://www.simplyhired.ca/",
+    title: 'Simply Hired',
+    text: 'Job search engine aggregating listings from multiple sources.',
+    link: 'http://www.simplyhired.ca/',
     isLink: true,
-  };
+  }
 
   const glassdoor = {
-    title: "Glassdoor",
-    text: "Job listings and company reviews, including salary information.",
-    link: "http://www.glassdoor.ca",
+    title: 'Glassdoor',
+    text: 'Job listings and company reviews, including salary information.',
+    link: 'http://www.glassdoor.ca',
     isLink: true,
-  };
+  }
 
   const jobBank = {
-    title: "Job Bank",
-    text: "Canada’s national job board for various government job postings.",
-    link: "http://www.on.jobbank.gc.ca/",
+    title: 'Job Bank',
+    text: 'Canada’s national job board for various government job postings.',
+    link: 'http://www.on.jobbank.gc.ca/',
     isLink: true,
-  };
+  }
 
   const goJobs = {
-    title: "Go Jobs",
-    text: "Listings of government jobs in Ontario.",
-    link: "http://www.gojobs.gov.on.ca/Jobs.aspx",
+    title: 'Go Jobs',
+    text: 'Listings of government jobs in Ontario.',
+    link: 'http://www.gojobs.gov.on.ca/Jobs.aspx',
     isLink: true,
-  };
+  }
 
   const canadaMunicipalJobs = {
-    title: "Canada Municipal Jobs",
-    text: "Jobs available in Ontario’s municipal sector.",
-    link: "http://www.ontariomunicipaljobs.com",
+    title: 'Canada Municipal Jobs',
+    text: 'Jobs available in Ontario’s municipal sector.',
+    link: 'http://www.ontariomunicipaljobs.com',
     isLink: true,
-  };
+  }
 
   const ontarioInternshipProgram = {
-    title: "Ontario Internship Program",
-    text: "Internships offered by the Ontario government.",
-    link: "https://www.internship.gov.on.ca/mbs/sdb/intern.nsf/",
+    title: 'Ontario Internship Program',
+    text: 'Internships offered by the Ontario government.',
+    link: 'https://www.internship.gov.on.ca/mbs/sdb/intern.nsf/',
     isLink: true,
-  };
+  }
 
   const careerEdge = {
-    title: "Career Edge",
-    text: "Internship and career development opportunities.",
-    link: "https://www.careeredge.ca/en/home",
+    title: 'Career Edge',
+    text: 'Internship and career development opportunities.',
+    link: 'https://www.careeredge.ca/en/home',
     isLink: true,
-  };
+  }
 
   const charityVillage = {
-    title: "Charity Village",
-    text: "Volunteer opportunities and nonprofit job listings.",
-    link: "https://charityvillage.com",
+    title: 'Charity Village',
+    text: 'Volunteer opportunities and nonprofit job listings.',
+    link: 'https://charityvillage.com',
     isLink: true,
-  };
+  }
 
   const ontarioVolunteerCenter = {
-    title: "Ontario Volunteer Center",
-    text: "Volunteer opportunities and resources across Ontario.",
-    link: "https://ovcn.ca/",
+    title: 'Ontario Volunteer Center',
+    text: 'Volunteer opportunities and resources across Ontario.',
+    link: 'https://ovcn.ca/',
     isLink: true,
-  };
+  }
 
   const volunteerCanada = {
-    title: "Volunteer Canada",
-    text: "National platform for finding volunteer opportunities.",
-    link: "https://volunteer.ca/",
+    title: 'Volunteer Canada',
+    text: 'National platform for finding volunteer opportunities.',
+    link: 'https://volunteer.ca/',
     isLink: true,
-  };
+  }
 
   return (
     <div>
       <h1 className={styles.title}>Job Search Guide</h1>
 
       <div className={styles.intro}>
-        <h2 className={styles.subheading} style={{ textAlign: "left" }}>
+        <h2 className={styles.subheading} style={{ textAlign: 'left' }}>
           How to use this Job Search Guide?
         </h2>
         <p>
@@ -134,11 +134,11 @@ function JobSearchGuide() {
           </li>
         </ul>
         <Link
-          to="/resumeguide"
+          to='/resumeguide'
           className={styles.redirectLink}
-          style={{ padding: "1%" }}
+          style={{ padding: '1%' }}
         >
-          <strong>Have a look at the Resume Guide</strong>{" "}
+          <strong>Have a look at the Resume Guide</strong>{' '}
           <FaArrowRight className={styles.arrow} />
         </Link>
       </div>
@@ -235,8 +235,15 @@ function JobSearchGuide() {
           isLink={volunteerCanada.isLink}
         />
       </div>
+
+      <div className={styles.posArrow}>
+        <Link to='/' className={styles.redirectLink}>
+          <FaArrowLeft className={styles.arrow} />{' '}
+          <strong>Go back to Home page</strong>
+        </Link>
+      </div>
     </div>
-  );
+  )
 }
 
-export default JobSearchGuide;
+export default JobSearchGuide
