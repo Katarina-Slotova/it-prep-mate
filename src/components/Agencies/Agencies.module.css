@@ -27,11 +27,10 @@
 
 .intro {
   display: block;
-  padding-left: 5%;
-  padding-right: 5%;
   padding-bottom: 3%;
   font-size: 1.2rem;
   text-align: justify;
+  margin: 0 10%;
 }
 
 .arrow {

@@ -58,7 +58,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: '/resumeguide',
+        path: '/jobsearchguide/resumeguide',
         element: (
           <>
             <Navbar />

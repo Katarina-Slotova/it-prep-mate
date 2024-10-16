@@ -1,6 +1,5 @@
 import React from 'react'
 import * as styles from './ResumeGuide.module.css'
-import Navbar from '../Navbar'
 
 function ResumeGuide() {
   return (

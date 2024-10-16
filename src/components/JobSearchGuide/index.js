@@ -106,8 +106,8 @@ function JobSearchGuide() {
           How to use this Job Search Guide?
         </h2>
         <p>
-          Whether you’re just starting or ready to apply, we’ve got the
-          resources to help you succeed. We’ve designed this guide to give you
+          Whether you're just starting or ready to apply, we've got the
+          resources to help you succeed. We've designed this guide to give you
           the flexibility to approach your job search in the way that works best
           for you.
         </p>
@@ -134,7 +134,7 @@ function JobSearchGuide() {
           </li>
         </ul>
         <Link
-          to='/resumeguide'
+          to='/jobsearchguide/resumeguide'
           className={styles.redirectLink}
           style={{ padding: '1%' }}
         >

@@ -171,143 +171,143 @@ function Agencies() {
             <p>
               <strong>Utilise Local Offices: </strong> Some services may be
               available through local offices or community centres. Check the
-              agency’s website for location-specific information.
+              agency's website for location-specific information.
             </p>
           </li>
         </ul>
+      </div>
 
-        <div className={styles.cards}>
-          <LargeCard
-            title={ontario.title}
-            text={ontario.text}
-            link={ontario.link}
-            isLink={ontario.isLink}
-          />
-          <LargeCard
-            title={workBC.title}
-            text={workBC.text}
-            link={workBC.link}
-            isLink={workBC.isLink}
-          />
-          <LargeCard
-            title={alberta.title}
-            text={alberta.text}
-            link={alberta.link}
-            isLink={alberta.isLink}
-          />
-        </div>
-        <div className={styles.cards}>
-          <LargeCard
-            title={brunswick.title}
-            text={brunswick.text}
-            link={brunswick.link}
-            isLink={brunswick.isLink}
-          />
-          <LargeCard
-            title={quebec.title}
-            text={quebec.text}
-            link={quebec.link}
-            isLink={quebec.isLink}
-          />
-          <LargeCard
-            title={pei.title}
-            text={pei.text}
-            link={pei.link}
-            isLink={pei.isLink}
-          />
-        </div>
-        <div className={styles.cards}>
-          <LargeCard
-            title={acces.title}
-            text={acces.text}
-            link={acces.link}
-            isLink={acces.isLink}
-          />
-          <LargeCard
-            title={ywca.title}
-            text={ywca.text}
-            link={ywca.link}
-            isLink={ywca.isLink}
-          />
-          <LargeCard
-            title={costi.title}
-            text={costi.text}
-            link={costi.link}
-            isLink={costi.isLink}
-          />
-        </div>
+      <div className={styles.cards}>
+        <LargeCard
+          title={ontario.title}
+          text={ontario.text}
+          link={ontario.link}
+          isLink={ontario.isLink}
+        />
+        <LargeCard
+          title={workBC.title}
+          text={workBC.text}
+          link={workBC.link}
+          isLink={workBC.isLink}
+        />
+        <LargeCard
+          title={alberta.title}
+          text={alberta.text}
+          link={alberta.link}
+          isLink={alberta.isLink}
+        />
+      </div>
+      <div className={styles.cards}>
+        <LargeCard
+          title={brunswick.title}
+          text={brunswick.text}
+          link={brunswick.link}
+          isLink={brunswick.isLink}
+        />
+        <LargeCard
+          title={quebec.title}
+          text={quebec.text}
+          link={quebec.link}
+          isLink={quebec.isLink}
+        />
+        <LargeCard
+          title={pei.title}
+          text={pei.text}
+          link={pei.link}
+          isLink={pei.isLink}
+        />
+      </div>
+      <div className={styles.cards}>
+        <LargeCard
+          title={acces.title}
+          text={acces.text}
+          link={acces.link}
+          isLink={acces.isLink}
+        />
+        <LargeCard
+          title={ywca.title}
+          text={ywca.text}
+          link={ywca.link}
+          isLink={ywca.isLink}
+        />
+        <LargeCard
+          title={costi.title}
+          text={costi.text}
+          link={costi.link}
+          isLink={costi.isLink}
+        />
+      </div>
 
-        <h2 className={styles.subheading} style={{ textAlign: 'left' }}>
-          Private Employment Agencies:
-        </h2>
-        <p>
-          Private Canadian employment agencies are businesses that offer job
-          placement and recruitment services to both employers and job seekers.
-          Unlike government-funded agencies, these private agencies typically
-          operate on a for-profit basis and provide a wide range of specialized
-          services.
-        </p>
+      <h2 className={styles.subheading} style={{ textAlign: 'left', margin: '0 10%' }}>
+        Private Employment Agencies:
+      </h2>
+      <p style={{ textAlign: 'left', margin: '0 10%' }}>
+        Private Canadian employment agencies are businesses that offer job
+        placement and recruitment services to both employers and job seekers.
+        Unlike government-funded agencies, these private agencies typically
+        operate on a for-profit basis and provide a wide range of specialized
+        services.
+      </p>
 
-        <div className={styles.cards}>
-          <LargeCard
-            title={randstad.title}
-            text={randstad.text}
-            link={randstad.link}
-            isLink={randstad.isLink}
-          />
-          <LargeCard
-            title={robertHalf.title}
-            text={robertHalf.text}
-            link={robertHalf.link}
-            isLink={robertHalf.isLink}
-          />
-          <LargeCard
-            title={adecco.title}
-            text={adecco.text}
-            link={adecco.link}
-            isLink={adecco.isLink}
-          />
-        </div>
-        <div className={styles.cards}>
-          <LargeCard
-            title={hays.title}
-            text={hays.text}
-            link={hays.link}
-            isLink={hays.isLink}
-          />
-          <LargeCard
-            title={express.title}
-            text={express.text}
-            link={express.link}
-            isLink={express.isLink}
-          />
-          <LargeCard
-            title={talentWorld.title}
-            text={talentWorld.text}
-            link={talentWorld.link}
-            isLink={talentWorld.isLink}
-          />
-        </div>
-        <div className={styles.cards}>
-          <LargeCard
-            title={staffingEdge.title}
-            text={staffingEdge.text}
-            link={staffingEdge.link}
-            isLink={staffingEdge.isLink}
-          />
-          <LargeCard
-            title={workforce.title}
-            text={workforce.text}
-            link={workforce.link}
-            isLink={workforce.isLink}
-          />
-          <LargeCard
-            title={workopolis.title}
-            text={workopolis.text}
-            link={workopolis.link}
-            isLink={workopolis.isLink}
-          />
-        </div>
+      <div className={styles.cards}>
+        <LargeCard
+          title={randstad.title}
+          text={randstad.text}
+          link={randstad.link}
+          isLink={randstad.isLink}
+        />
+        <LargeCard
+          title={robertHalf.title}
+          text={robertHalf.text}
+          link={robertHalf.link}
+          isLink={robertHalf.isLink}
+        />
+        <LargeCard
+          title={adecco.title}
+          text={adecco.text}
+          link={adecco.link}
+          isLink={adecco.isLink}
+        />
+      </div>
+      <div className={styles.cards}>
+        <LargeCard
+          title={hays.title}
+          text={hays.text}
+          link={hays.link}
+          isLink={hays.isLink}
+        />
+        <LargeCard
+          title={express.title}
+          text={express.text}
+          link={express.link}
+          isLink={express.isLink}
+        />
+        <LargeCard
+          title={talentWorld.title}
+          text={talentWorld.text}
+          link={talentWorld.link}
+          isLink={talentWorld.isLink}
+        />
+      </div>
+      <div className={styles.cards}>
+        <LargeCard
+          title={staffingEdge.title}
+          text={staffingEdge.text}
+          link={staffingEdge.link}
+          isLink={staffingEdge.isLink}
+        />
+        <LargeCard
+          title={workforce.title}
+          text={workforce.text}
+          link={workforce.link}
+          isLink={workforce.isLink}
+        />
+        <LargeCard
+          title={workopolis.title}
+          text={workopolis.text}
+          link={workopolis.link}
+          isLink={workopolis.isLink}
+        />
       </div>
 
       <div className={styles.posArrow}>
