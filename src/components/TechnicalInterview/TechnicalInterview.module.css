@@ -85,6 +85,11 @@
   box-shadow: 7px 7px 5px rgb(246, 185, 185);
 }
 
+.arrow {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
 .posArrow {
   display: block;
   padding-left: 9%;
